@@ -112,6 +112,10 @@ header .user .post{
     color:#eee;
 }
 
+.social-media img{
+    margin: 20px;
+}
+
 header .navbar{
     width:100%;
 }
