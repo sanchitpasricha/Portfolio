@@ -282,8 +282,8 @@ header .navbar ul li a:hover{
 
 .skills .box-container{
     display: flex;
-    align-items:flex-end;
-    justify-content:flex-end;
+    align-items:center;
+    justify-content:space-around;
     flex-wrap: wrap;
     padding:1rem 0;
     padding-left: 3rem;
@@ -295,6 +295,8 @@ header .navbar ul li a:hover{
     padding-left: 4rem;
     border-left: .2rem solid #fff;
     position: relative;
+    display: flex;
+    flex-direction: column;
 }
 
 .skills .box-container .box i{
@@ -308,6 +310,11 @@ header .navbar ul li a:hover{
     font-size: 2rem;
     color: black;
     background:var(--yellow);
+}
+
+.box p{
+    color: white;
+    font-size: 2rem;
 }
 
 .portfolio .box-container{
